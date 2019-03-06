@@ -1,0 +1,32 @@
+.wrapper {
+    background: #fff;
+    max-width: 960px;
+    margin: 10px auto;
+    padding: 10px;
+
+}
+
+.blue {
+    float: left;
+    background-color: blue;
+    width: 100px;
+    height: 100px;
+
+}
+
+.red {
+    clear: both;
+    margin: 0 auto;
+    background-color: red;
+    width: 100px;
+    height: 100px;
+
+}
+
+.green {
+    float: right;
+    background-color: green;
+    width: 100px;
+    height: 100px;
+
+}
