@@ -1,0 +1,217 @@
+body {
+    margin: 20px;
+    width: 1200px;
+    overflow: none; 
+}
+
+
+/* Sections */
+
+#top-board {
+    height: 50px;
+}
+
+
+#canvas-container {
+
+    height: 680px;
+}
+
+
+/* Canvas */
+
+.canvas-board {
+    border:2px black solid;
+    position:absolute;
+}
+
+#canvas {
+    position: absolute;
+    top: 90px;
+    left: 80px;
+}
+#canvas-real {
+    border: 1px black solid;
+}
+
+
+.canvas {
+    position: absolute;
+}
+
+
+
+#canvas-draft {
+    z-index: 90;
+    border: 1px black solid;
+}
+
+
+/* Control Panel */
+
+
+#control-panel {
+    height: 160px;
+    /* border: 2px green solid;   */
+    display: flex; 
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+
+}
+
+/* Buttons  */
+
+#shape-buttons {
+    padding: 15px;
+    width: 270px;
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.btn-circle-l {
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    font-size: 20px;
+    line-height: 1.1;
+    text-align: center;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+/* Color Palette */
+
+#palette {
+    justify-content: center;
+    display: flex;
+    padding: 15px;
+    align-items: center;
+    align-content: center;
+    padding-right: 50px;
+    padding-top: 0;
+}
+
+#color-square {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-square-mini {
+    width: 25px;
+    height: 25px;
+    border-radius: 0px;
+    border: 1px black solid;
+}
+
+#current-color {    /*  THIS IS A VERY HACKED SOLUTION.  WOULD BE BETTER TO FIND A WAY TO CENTER IT  */
+    padding-left: 20px;
+    padding-top: 17px;
+}
+
+#small-circle {
+    position: relative;
+    width: 50;
+    height: 50; 
+    background-color: black;
+    border-radius: 25px;
+    z-index: 2;
+    top: 25px;
+    left: 10px;
+}
+
+#big-circle {
+    position: relative;
+    width: 70;
+    height: 70; 
+    background-color: blue;
+    border-radius: 35px;
+    border: 1px solid;
+    top: -35;
+}
+
+#color-square-mini-1 {
+    background-color: red;
+}
+
+#color-square-mini-2 {
+    background-color: orangered;
+}
+
+#color-square-mini-3 {
+    background-color: orange;
+}
+
+#color-square-mini-4 {
+    background-color: yellow;
+}
+
+#color-square-mini-5 {
+    background-color: yellowgreen;
+}
+
+#color-square-mini-6 {
+    background-color: green;
+}
+
+#color-square-mini-7 {
+    background-color: teal;
+}
+
+#color-square-mini-8 {
+    background-color: blue;
+}
+
+#color-square-mini-9 {
+    background-color: blueviolet;
+}
+
+#color-square-mini-10 {
+    background-color: purple;
+}
+
+#color-square-mini-11 {
+    background-color: black;
+}
+
+#color-square-mini-12 {
+    background-color: gray;
+}
+
+#boxofcolors {
+    display: flex;
+}
+
+#colors {
+    border: 0;
+    width: 35px;
+    height: 35px;
+}
+
+#paracolor {
+    font-size: 9px;
+    margin: 0;
+    padding-top: 5px;
+}
+
+.sp-preview {
+    height: 24px;
+    width: 24px;
+    margin: 0;
+    border: 0;
+}
+
+.sp-replacer {
+    border: 0;
+    background: white;
+    padding: 0;
+}
+
+.sp-dd {
+    float: none;
+}
+

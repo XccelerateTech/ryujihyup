@@ -1,0 +1,35 @@
+body img {
+    vertical-align: bottom
+}
+
+header {
+    float:left;
+    height: 10%;
+}
+
+header img {
+    height: 50px;
+}
+
+
+body {
+    max-width: 600px;
+    margin-bottom: 0;
+}
+
+.shop{
+    height: 500px;
+    width: 600px;
+    padding:0px
+}
+
+.mainpic {
+    height:50%;
+}
+
+footer {
+    max-width: 600px;
+    background: #7FFF00;
+    height:40%;
+    margin-top: 0;
+}

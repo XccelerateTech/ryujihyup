@@ -1,0 +1,17 @@
+{
+  "name": "sql-day-33",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^7.0.0",
+    "knew": "0.0.0",
+    "knex": "^0.16.5",
+    "pg": "^7.10.0"
+  }
+}

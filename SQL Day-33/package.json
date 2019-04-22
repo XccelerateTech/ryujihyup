@@ -1,0 +1,21 @@
+{
+  "name": "sql-day-33",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "example": "example"
+  },
+  "dependencies": {
+    "csv-reader": "^1.0.3",
+    "dotenv": "^7.0.0",
+    "knex": "^0.16.5",
+    "pg": "^7.10.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
