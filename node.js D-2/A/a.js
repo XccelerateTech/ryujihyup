@@ -1,15 +1,15 @@
 function processArray(array, cb) {
     var emptyArray = [];
 
-    // for(let elem of array){
-    //     emptyArray.push(cb(elem))
-    //     console.log(emptyArray)
-    // }
-
-    array.forEach(a => {
-        emptyArray.push(cb(a));
+    for(let elem of array){
+        emptyArray.push(cb(elem))
         console.log(emptyArray)
-    });
+    }
+
+    // array.forEach(a => {
+    //     emptyArray.push(cb(a));
+    //     console.log(emptyArray)
+    // });
 
     // return emptyArray
 }
