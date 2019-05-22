@@ -1559,11 +1559,6 @@ ajv@^6.1.0, ajv@^6.5.5, ajv@^6.9.1:
     json-schema-traverse "^0.4.1"
     uri-js "^4.2.2"
 
-alea@0.0.9:
-  version "0.0.9"
-  resolved "https://registry.yarnpkg.com/alea/-/alea-0.0.9.tgz#f738cb45f83430069f45cf69ccbf312dd57a9e1a"
-  integrity sha1-9zjLRfg0MAafRc9pzL8xLdV6nho=
-
 alphanum-sort@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/alphanum-sort/-/alphanum-sort-1.0.2.tgz#97a1119649b211ad33691d9f9f486a8ec9fbe0a3"
@@ -3869,11 +3864,6 @@ extsprintf@^1.2.0:
   version "1.4.0"
   resolved "https://registry.yarnpkg.com/extsprintf/-/extsprintf-1.4.0.tgz#e2689f8f356fad62cca65a3a91c5df5f9551692f"
   integrity sha1-4mifjzVvrWLMplo6kcXfX5VRaS8=
-
-faker@^4.1.0:
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/faker/-/faker-4.1.0.tgz#1e45bbbecc6774b3c195fad2835109c6d748cc3f"
-  integrity sha1-HkW7vsxndLPBlfrSg1EJxtdIzD8=
 
 fast-deep-equal@^2.0.1:
   version "2.0.1"
@@ -6424,13 +6414,6 @@ node-pre-gyp@^0.12.0:
     rimraf "^2.6.1"
     semver "^5.3.0"
     tar "^4"
-
-node-random-name@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/node-random-name/-/node-random-name-1.0.1.tgz#9e2404c7a01e0905a2f76168821edb2dcd14f758"
-  integrity sha1-niQEx6AeCQWi92Fogh7bLc0U91g=
-  dependencies:
-    alea "0.0.9"
 
 node-releases@^1.1.13, node-releases@^1.1.17:
   version "1.1.18"

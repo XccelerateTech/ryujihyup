@@ -1,11 +1,9 @@
 {
-  "name": "example",
+  "name": "exercise-a",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
-    "faker": "^4.1.0",
-    "node-random-name": "^1.0.1",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
     "react-scripts": "3.0.1",

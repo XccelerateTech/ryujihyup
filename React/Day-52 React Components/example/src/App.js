@@ -7,6 +7,8 @@ import faker from "faker";
 import CommentCard from "./components/CommentCard";
 import ShoppingList from './components/ShoppingList';
 import Counter from './components/Counter';
+import LeaderBoard from './components/LeaderBoard';
+
 
 const shopping = [
   {id:0, item:"Apples"},
@@ -62,8 +64,10 @@ function App() {
 
           <br />
 
-          <Counter
-          number="1" />
+          {/* <Counter
+          number="1" /> */}
+
+          <LeaderBoard />
 
       </div>
     </div>
