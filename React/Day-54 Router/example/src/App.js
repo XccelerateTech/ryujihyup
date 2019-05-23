@@ -1,14 +1,6 @@
 import React from 'react';
 import logo from './logo.svg';
-import 'bootstrap/dist/css/bootstrap.min.css'; // Add this line
 import './App.css';
-import Modal from './Modal'
-
-import TodoList from './components/TodoList';
-import Hello from './components/Hello';
-import Page from './components/Page';
-import NameForm from './components/Forms';
-
 
 function App() {
   return (
@@ -24,16 +16,9 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <TodoList />
+          Learn React
         </a>
       </header>
-      <Hello>
-          Jihyup
-      </Hello>
-
-      <Page />
-
-      <NameForm />
     </div>
   );
 }
