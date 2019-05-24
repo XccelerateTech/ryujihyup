@@ -32,7 +32,7 @@ function App() {
       </Hello>
 
       <Page />
-
+      <Modal />
       <NameForm />
     </div>
   );
