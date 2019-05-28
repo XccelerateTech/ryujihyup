@@ -4,8 +4,9 @@ export default class Links extends React.Component {
     render (){
         return (
             <div style={linkBox}>
-                URL: {this.props.url} Title: {this.props.title} Tags: {this.props.tags}
+                URL: <a href={this.props.url}>{this.props.url}</a> Title: {this.props.title} Tags: {this.props.tags}
             </div>
+        //For URL, You must put http:// or https:// before the url.
         )
     }
 }

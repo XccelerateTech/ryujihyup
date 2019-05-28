@@ -11,7 +11,7 @@ export default class Home extends React.Component {
     constructor(props){
         super(props)
         this.state = {
-            links: [{ url: 'www.google.com', title: 'google', tags: ['search', 'best of best']}],
+            links: [],
             modalShow: false,
             value: ''
         }
@@ -68,7 +68,7 @@ export default class Home extends React.Component {
                             <LinksModal addLink={this.addLink}/>
                         </div>
                     </Col>
-                    <Col md={6} sm={12} xs={12} className="justify-content-md-center">
+                    <Col md={7} sm={12} xs={12} className="justify-content-md-center">
                         <SearchBar value={this.state.value} onChangeValue={this.handleChangeValue} onSubmitValue={this.searchResult}/>
                             {result.map((link) => this.renderLinks(link.url, link.title, link.tags))}
                     </Col>
@@ -81,9 +81,12 @@ export default class Home extends React.Component {
 }
 
 const profileBox = {
-    height: 300,
-    width: 250,
-    border: "3px solid"
+    height: '100%',
+    width: '100%',
+    border: "3px solid",
+    margin: 'auto',
+    width: '60%',
+    padding: '10px'
 }
 
 const imageStyle = {
