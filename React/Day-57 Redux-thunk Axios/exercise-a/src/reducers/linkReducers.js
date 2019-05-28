@@ -1,4 +1,4 @@
-import { ADD_LINK, CLEAR_LINK, DELETE_LINK, LOAD_LINK_SUCCESS, LOAD_LINK_FAILURE } from './actions';
+import { ADD_LINK, CLEAR_LINK, DELETE_LINK, LOAD_LINK_SUCCESS, LOAD_LINK_FAILURE } from '../actions/linkActions';
 
 
 const initalState = {
@@ -15,7 +15,7 @@ const initalState = {
     ]
 };
 
-export const rootReducer = (state = initalState, action) => {
+export const linkReducers = (state = initalState, action) => {
   switch (action.type) {
     case ADD_LINK:
       return {
@@ -27,7 +27,7 @@ export const rootReducer = (state = initalState, action) => {
       };
     case DELETE_LINK:
       return {
-        links: state.links.filter((link, index) => index != action.index)
+        links: state.links.filter((link, index) => index !== action.index)
       };
     case LOAD_LINK_SUCCESS:
         return {

@@ -1,4 +1,3 @@
-import { dispatch } from "rxjs/internal/observable/pairs";
 import axios from 'axios';
 
 export const ADD_LINK = "ADD_LINK";
@@ -7,9 +6,9 @@ export const CLEAR_LINK = "CLEAR_LINK";
 
 export const DELETE_LINK = "DELETE_LINK";
 
-export function deleteLink(i){
-    console.log(i)
-}
+// export function deleteLink(i){
+//     console.log(i)
+// }
 
 export const LOAD_LINK_SUCCESS = "LOAD_LINK_SUCCESS";
 
